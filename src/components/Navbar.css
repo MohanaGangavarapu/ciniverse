@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  background: black;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 👇 pushes links to right */
+.nav-links {
+  display: flex;
+  gap: 25px;
+  margin-left: auto;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+}
